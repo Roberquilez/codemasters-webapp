@@ -1,12 +1,14 @@
 import "./backoffice.css";
 
 export default function RootLayout({ children }) {
-    return (<section id="backoffice">
-        <nav>
-            Implementar aquí el menú de navegación
-        </nav>
-        <section>
-            {children}
+    return (
+        <section id="backoffice">
+            <nav id="navigation">
+                Implementar aquí el menú de navegación
+            </nav>
+            <section id="content">
+                {children}
+            </section>
         </section>
-    </section>);
+    );
 }
