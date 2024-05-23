@@ -1,0 +1,17 @@
+#backoffice {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navigation {
+    width: 20%;
+}
+
+#content {
+    width: 80%;
+}
+
+#courseList {
+    position: absolute;
+    bottom: 0;
+}
